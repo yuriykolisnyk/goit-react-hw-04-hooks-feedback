@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  min-width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  box-shadow: 5px 5px 15px 5px #010e53;
+  cursor: pointer;
+  transition: all 250ms linear;
+}
+
+.button:hover {
+  transform: scale(0.95);
+  background-color: rgb(6, 34, 158);
+  border-color: rgb(18, 16, 172);
+  color: #ffffff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  transition: all 250ms linear;
+}
